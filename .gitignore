@@ -1,0 +1,21 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.sqlite3
+
+# Uploaded and generated images
+backend/uploads/*
+backend/results/*
+
+# Keep folders in GitHub
+!backend/uploads/.gitkeep
+!backend/results/.gitkeep
+
+# IDE files
+.vscode/
